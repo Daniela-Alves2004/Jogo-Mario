@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    font-weight: 700;
+    font-family: "Inria Serif";
+    position: relative;
+    gap:18px;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.25);
+
+}
+header .botao-login{
+    border: 1px solid #FD83FF;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px 35px 10px 35px ;
+    color:#FD83FF;
+    background-color: #FFFFFF;
+}
+header .botao-cadastrar{
+    border: 1px solid #FD83FF;
+    background-color: #FD83FF;
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px 25px 10px 25px ;
+}
+.section-intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0 100px 60px ;
+
+    
+}
+.intro-texto{
+    display:flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: "Inria Serif";
+    
+}
+.section-intro .intro-texto h2{
+    font-size:80px;
+    
+}
+.section-intro .intro-texto p{
+    padding-top: 5px;
+    font-size: 40px;
+    color: #00000096;
+    padding-bottom: 13px;
+    
+}
+.section-intro .intro-texto button{
+    border: 1px solid  #FD83FF;
+    border-radius: 60px ;
+    width: 270px;
+    height:75px;
+    background-color: #FD83FF;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.section-conteudo{
+    background-color: #959BFF;
+    color:#FFFFFF ;
+    padding: 200px 50px  300px 50px;
+    
+}
+.section-conteudo h3{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    font-weight: 700;
+    font-family: "Inria Serif";
+    font-size:60px;
+    padding-bottom: 80px;
+    
+}
+.section-conteudo .div-curso{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color:#8535AB;
+}
+.section-conteudo .div-curso .div-plano-negocio, .div-app,.div-pitch  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8535AB;
+    border-radius: 20px;
+    width:450px;
+    height: 550px;
+    background-color: #FFFFFF;
+    gap: 60px;
+   
+}
+.section-conteudo .div-curso .div-plano-negocio span, .div-app span,.div-pitch span {
+    color: #FFFFFF;
+    background-color: #8535AB;
+    border-radius: 50px ;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    
+}
+.section-motivacao{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around   ;
+    align-items: center;
+    
+    
+}
+.section-motivacao .img1{
+   position: relative;
+   right: 250px;
+   bottom: 120px;
+   z-index: 2;
+}
+.section-motivacao .img2{
+    position: relative;
+    left: 460px;
+    top: 5px;
+    z-index: 1
+ }
+.section-motivacao img{
+    border-radius: 15px;
+}
+.motivacao-texto {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    
+}
+.motivacao-texto h4{
+    padding-top: 250px;
+    font-size: 60px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #8535AB;
+}
+.motivacao-texto .texto1{
+    padding-top: 40px;
+    color:#00000080;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Inria Serif";
+}
+.motivacao-texto .texto2 h5{
+    padding-top: 45px;
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+    font-size: 35px;
+}
+.motivacao-texto .texto2 p{
+    padding: 45px 0 250px 0;
+    font-weight: 700;
+    font-family: "Inria Serif";
+    font-size: 30px;
+
+}
+footer{
+    padding: 150px 0 150px 0;
+    background: #000000;
+    color: rgba(253, 131, 255, 1);
+    font-family: "Inria Serif";
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+}
+footer .div-links{
+    display:flex;
+    flex-direction: column;
+    color: #FD83FF;
+    font-size: 25px;
+}
+.div-linkedin, .div-instagram, .div-email{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px 40px 0 0;
+    
+}
+.div-linkedin a, .div-instagram a, .div-email a{
+    color: #FD83FF;
+    text-decoration: none;
+}
