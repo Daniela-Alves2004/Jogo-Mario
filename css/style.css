@@ -6,14 +6,14 @@
     
 }
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100vdw;
+    height: 100vdh;
     background: linear-gradient(#1b65d4,#a1b4d8);
 }
 .game-board{
     display: none;
-    width: 99vdw;
-    height: 97vdh;
+    width: 99vw;
+    height: 97vh;
     border-bottom: 36px solid rgb(35,160,35);
     position: relative;
     overflow: hidden;
