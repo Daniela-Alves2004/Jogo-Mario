@@ -12,9 +12,9 @@ body{
 }
 .game-board{
     display: none;
-    width:99vw;
-    height: 98vh;
-    border-bottom: 36px solid rgb(35,160,35);
+    width:98vw;
+    height: 97vh;
+    border-bottom: 35px solid rgb(35,160,35);
     position: relative;
     overflow: hidden;
    
