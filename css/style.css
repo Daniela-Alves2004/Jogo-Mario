@@ -12,8 +12,8 @@ body{
 }
 .game-board{
     display: none;
-    width:97vw;
-    height: 97vh;
+    width:100vw;
+    height: 98vh;
     border-bottom: 36px solid rgb(35,160,35);
     position: relative;
     overflow: hidden;
