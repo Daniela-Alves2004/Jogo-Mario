@@ -6,8 +6,8 @@
     
 }
 body{
-    width: 100vdw;
-    height: 100vdh;
+    width: 100dvw;
+    height: 100dvh;
     background: linear-gradient(#1b65d4,#a1b4d8);
 }
 .game-board{
