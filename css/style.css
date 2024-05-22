@@ -6,8 +6,10 @@
     
 }
 body{
-   
+    width:100vw;
+    height: 100vh;
     background: linear-gradient(#1b65d4,#a1b4d8);
+    overflow: hidden;
 }
 .game-board{
     display: none;
